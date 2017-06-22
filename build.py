@@ -1,5 +1,8 @@
 def solution(dic):
-    '''
-    Enter your code here
-    '''
+    count = 0
+    for string in dic:
+        if string[0]==string[-1]:
+            count+=1
+        else:
+            pass
     return count
